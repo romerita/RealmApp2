@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    android:paddingEnd="20dp"
+    android:paddingStart="20dp">
+
+    <EditText
+        android:id="@+id/edada"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Edad Minima"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/edadb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Edad Maxima"
+        android:inputType="number" />
+
+</LinearLayout>
