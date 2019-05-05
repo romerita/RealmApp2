@@ -61,9 +61,9 @@ public class Adapter extends BaseAdapter {
         viewHolder.name.setText(list.get(pos).getName());
         viewHolder.edad.setText(String.valueOf("Edad: "+list.get(pos).getEdad()));
         if (list.get(pos).isSexo()){
-            viewHolder.sexo.setText(String.valueOf("Genero: Masculino"));
+            viewHolder.sexo.setText(String.valueOf("Género: Masculino"));
         }else{
-            viewHolder.sexo.setText(String.valueOf("Genero: Femenino"));
+            viewHolder.sexo.setText(String.valueOf("Género: Femenino"));
         }
 
         viewHolder.card.setOnClickListener(new View.OnClickListener() {

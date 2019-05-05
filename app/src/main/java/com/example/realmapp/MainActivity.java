@@ -120,7 +120,7 @@ public class MainActivity extends AppCompatActivity implements RealmChangeListen
                 }else if (nameStr.length() >0 && numbers.length() > 0){
                     createNewContact(nameStr,numberStr,0,sexoBoolean);
                 }
-                else Toast.makeText(MainActivity.this, "No se pueden dejar campos vacios", Toast.LENGTH_SHORT).show();
+                else Toast.makeText(MainActivity.this, "No se pueden dejar campos vacíos", Toast.LENGTH_SHORT).show();
 
             }
         });
@@ -146,7 +146,7 @@ public class MainActivity extends AppCompatActivity implements RealmChangeListen
                 if (a.length() >0 && b.length() >0){
                     showonly(Integer.parseInt(a),Integer.parseInt(b));
                 }
-                else Toast.makeText(MainActivity.this, "No se pueden dejar campos vacios", Toast.LENGTH_SHORT).show();
+                else Toast.makeText(MainActivity.this, "No se pueden dejar campos vacíos", Toast.LENGTH_SHORT).show();
 
             }
         });
